@@ -1,4 +1,4 @@
-'''
+'''# 到五十停止
 i = 1
 while i <= 100:
 	if i == 50:
@@ -9,8 +9,17 @@ while i <= 100:
 
  
 i = 1
-while i <= 100:
+while i < 101:
 	if i == 50:
+		i+=1
 		continue
-	i+=1 
-print("i")
+	print(i)
+	i+=1
+	
+	
+'''
+i = 1
+while i < 100:
+	print(i)
+	i+=1
+'''
